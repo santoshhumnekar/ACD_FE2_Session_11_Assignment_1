@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>List data from service:</h2>
+  <hr/>
+  <ul class='list-group'  *ngFor='let data of getdata'>
+    <li appStyle class="list-group-item"> Name:{{data.Name}} <br>
+    DOB: {{data.Dob}} <br>
+    Email: {{data.Email}} <br>
+    Status: {{data.Status}} <br>
+    Link: {{data.Enroll}} <br> </li>
+  </ul>
+</div>
